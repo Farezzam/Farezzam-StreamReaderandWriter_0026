@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34616.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Activity 11 (Pemrograman dasar)", "Activity 11 (Pemrograman dasar)\Activity 11 (Pemrograman dasar).vcxproj", "{2487698B-BC55-49C8-89F2-9FEB5C4A0E02}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IoFile", "Activity 11 (Pemrograman dasar)\Activity 11 (Pemrograman dasar).vcxproj", "{2487698B-BC55-49C8-89F2-9FEB5C4A0E02}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "IoFileWithPath", "IoFileWithPath\IoFileWithPath.vcxproj", "{23FE8A82-46E7-41B5-90F1-07D07081FE0E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{2487698B-BC55-49C8-89F2-9FEB5C4A0E02}.Release|x64.Build.0 = Release|x64
 		{2487698B-BC55-49C8-89F2-9FEB5C4A0E02}.Release|x86.ActiveCfg = Release|Win32
 		{2487698B-BC55-49C8-89F2-9FEB5C4A0E02}.Release|x86.Build.0 = Release|Win32
+		{23FE8A82-46E7-41B5-90F1-07D07081FE0E}.Debug|x64.ActiveCfg = Debug|x64
+		{23FE8A82-46E7-41B5-90F1-07D07081FE0E}.Debug|x64.Build.0 = Debug|x64
+		{23FE8A82-46E7-41B5-90F1-07D07081FE0E}.Debug|x86.ActiveCfg = Debug|Win32
+		{23FE8A82-46E7-41B5-90F1-07D07081FE0E}.Debug|x86.Build.0 = Debug|Win32
+		{23FE8A82-46E7-41B5-90F1-07D07081FE0E}.Release|x64.ActiveCfg = Release|x64
+		{23FE8A82-46E7-41B5-90F1-07D07081FE0E}.Release|x64.Build.0 = Release|x64
+		{23FE8A82-46E7-41B5-90F1-07D07081FE0E}.Release|x86.ActiveCfg = Release|Win32
+		{23FE8A82-46E7-41B5-90F1-07D07081FE0E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
