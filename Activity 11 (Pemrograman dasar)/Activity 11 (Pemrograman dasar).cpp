@@ -28,23 +28,28 @@ int main() {
 		//menulis dan memasukan nilai dari 'baris' ke dalam file
 		outfile << baris << endl;
 	}
-	// Menunjuk ke sebuah file
+	//selesai dakam memnulis sekarang tutup filenya
+	outfile.close();
+
+	//membuka file dalam mode membaca
+	ifstream infile;
+	//menunjuk ke sebuah file
 	infile.open("contohfile.txt");
 
 	cout << endl << ">= Membuka dan membaca file " << endl;
-	// Jika file ada maka
+	//jika file tidak ada maka
 	if (infile.is_open())
 	{
-		// Melakukan perulangan setiap baris
+		//melakukan perulangan setiap baris
 		while (getline(infile, baris))
 		{
-			// Dan tampilkan disini
+			//dan tamppilkan di sini
 			cout << baris << '\n';
 		}
-		// Tutup file tersebut setelah selesai
+		//tutup file tersebut setelah selesai
 		infile.close();
 	}
-	// Jika tidak ditemukan file maka akan menampilkan ini
+	//jika tidak ditemukan file maka akan menampilkan ini
 	else cout << "Unable to open file";
 	return 0;
 }
